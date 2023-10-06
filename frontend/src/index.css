@@ -221,3 +221,6 @@ input {
   border-radius: 0.5rem;
 }
 
+.unshipped {
+  color: red;
+}
