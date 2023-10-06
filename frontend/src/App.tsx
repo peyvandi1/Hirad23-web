@@ -4,6 +4,7 @@ import Products from "./Products/Products";
 import Orders from "./Orders/Orders"
 import "./App.css";
 import OrderDetail from "./Orders/OrderDetail";
+import PaymentScreeen from "./Payment/Payment";
 
 function App() {
   const openMenu = () => {
@@ -27,6 +28,7 @@ function App() {
               <Link to="/">Home</Link>
               <Link to="/catalog">Catalog</Link>
               <Link to="/orders">Orders</Link>
+              <Link to="/payment">Payment</Link>
             </div>
           </header>
           <div>
@@ -51,6 +53,7 @@ function App() {
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="/order/:id" element={<OrderDetail />}></Route>
+                <Route path="payment" element={<PaymentScreeen />}></Route>
               </Routes>
             </main>
             <footer>&copy; 2023 Hirad23</footer>
