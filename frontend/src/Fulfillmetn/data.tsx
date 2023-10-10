@@ -1,5 +1,5 @@
 const fulfillmentData = {
-  fulfillment: [
+  fulfillments: [
     {
       _id: 1,
       customerName: "Alice",

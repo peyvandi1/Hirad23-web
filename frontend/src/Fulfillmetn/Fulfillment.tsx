@@ -18,7 +18,7 @@ function Fulfillment() {
             </tr>
           </thead>
           <tbody>
-            {data.fulfillment.map((fulfillment) => (
+            {data.fulfillments.map((fulfillment) => (
 
               <tr
                 key={fulfillment._id}
