@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home/Home";
 import Products from "./Products/Products";
-import Orders from "./Orders/Orders"
+import Orders from "./Orders/Orders";
 import "./App.css";
 import OrderDetail from "./Orders/OrderDetail";
 import PaymentScreeen from "./Payment/Payment";
@@ -53,10 +53,10 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/catalog" element={<Products />} />
-                <Route path="orders" element={<Orders />}/>
-                <Route path="/order/:id" element={<OrderDetail />}/>
-                <Route path="payment" element={<PaymentScreeen />}/>
-                <Route path="fulfillment" element={<Fulfillment />}/>
+                <Route path="/orders" element={<Orders />} />
+                <Route path="/order/:id" element={<OrderDetail />} />
+                <Route path="/payment" element={<PaymentScreeen />} />
+                <Route path="fulfillment" element={<Fulfillment />} />
               </Routes>
             </main>
             <footer>&copy; 2023 Hirad23</footer>
