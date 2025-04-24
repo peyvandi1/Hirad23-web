@@ -1,0 +1,3 @@
+Products folder also needs to have data.tsx file
+data.tsx file has been removed for Lab 6 
+(connecting frontend web and backend api with axios and CORS )
